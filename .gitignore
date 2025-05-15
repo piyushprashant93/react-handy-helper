@@ -1,0 +1,15 @@
+# .gitignore
+node_modules/
+dist/
+.playground/
+.env
+.DS_Store
+*.log
+
+# .npmignore
+# Ignore everything...
+# ...except dist folder and essential docs
+!dist/
+!README.md
+!LICENSE
+

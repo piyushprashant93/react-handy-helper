@@ -1,0 +1,24 @@
+# Ignore source files
+src/
+template-content.js
+template.js
+
+# Ignore test, build, and dev stuff
+.eslintrc*
+.prettierrc*
+.vscode/
+*.log
+*.md
+*.zip
+
+# Ignore configs and scripts
+scripts/
+.github/
+*.sh
+
+# Ignore TS config (if not using TypeScript runtime)
+tsconfig.json
+
+# Ignore everything except bin and built files
+!bin/
+!bin/cli.cjs
